@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-int i = 1; 
-for(i = 1; i < 101; i++)
+int i = 1;
+for (i = 1; i < 101; i++)
 {
-if(i % 3 == 0 && i % 5 != 0){
+if (i % 3 == 0 && i % 5 != 0)
+{
 puts("Fizz");
 }
-else if(i % 5 == 0 && i % 3 != 0)
+else if (i % 5 == 0 && i % 3 != 0)
 {
 puts("Buzz");
-} 
+}
 else if (i % 15 == 0)
 {
 puts("FizzBuzz");
@@ -23,7 +24,7 @@ puts("FizzBuzz");
 else
 {
 printf("%d\n", i);
-}         			
 }
-return(0);
+}
+return (0);
 }
