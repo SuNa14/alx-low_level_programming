@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * print_line - short description, single line
- * @void: description of parameter a
-(* a blank line
- * description: longer description of the function)?
-(* section header: section description)*
- * return: void
-*/
+ * print_line - printing lines
+ * @n: number of times
+ *
+ * Return: void
+ */
 void print_line(int n)
 {
 int i = 0;
