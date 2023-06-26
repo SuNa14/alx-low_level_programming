@@ -1,20 +1,18 @@
 #include "main.h"
-
+#include <string.h>
 /**
- * _puts - prints a string
- * @str: the string
- *
- * Return: the length of the string
- */
-void _puts(char *str)
+*  _strlen - returns the length of a string
+*  @s: string to check
+*  Return: 0 is success
+*/
+void print_rev(char *s)
 {
-	int i = 0, length;
+int length;
 
-	length = _strlen(str);
-	while (str[i] != '\0')
-	{
-		_putchar(str[length]);
-		length--;
-	}
-	_putchar('\n');
+length = strlen(s);
+while(s[length] != '\0')
+{
+_putchar(s[length]);
+length--;
+}
 }
