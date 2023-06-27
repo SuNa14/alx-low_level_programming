@@ -13,11 +13,11 @@ for (i = 0; i < n; i++)
 {
 if(i != i - 1)
 {
-printf("%d,  ",a[x]);
+printf("%d,  ",a[i]);
 }
 else
 {
-printf("%d", a[x]);
+printf("%d", a[i]);
 }
 }
 printf("\n");
