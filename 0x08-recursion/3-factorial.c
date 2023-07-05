@@ -1,8 +1,8 @@
 #include "main.h"
-/*
- * factorial - Prints the factorial of an integer
- * @n: Integer
- * Return 0
+/**
+ * factorial - functions recursive.
+ * @n: integer
+ * Return: (n * factorial(n-1)), 1, or -1.
 */
 int factorial(int n)
 {
