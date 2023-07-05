@@ -1,18 +1,23 @@
-#include "main.h"
 /**
- * factorial - functions recursive.
- * @n: integer
- * Return: (n * factorial(n-1)), 1, or -1.
-*/
+ * factorial - Returns the factorial of a given number.
+ * @n: The number to calculate the factorial of.
+ *
+ * Return: The factorial of the number.
+ *         If n is lower than 0, returns -1 to indicate an error.
+ *         If n is 0, returns 1.
+ */
 int factorial(int n)
 {
-if (n < 0)
-{
-return (-1);
-}
-else if (n == 0)
-{
-return (1);
-}
-return (n * factorial(n - 1));
+	if (n < 0)
+	{
+		return (-1);
+	}
+	else if (n == 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (n * factorial(n - 1));
+	}
 }
