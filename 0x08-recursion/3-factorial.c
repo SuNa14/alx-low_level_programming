@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * factorial: Prints the factorial of an integer 
+ * factorial: Prints the factorial of an integer
  * @n: Integer
  * Return 0
 */
@@ -14,5 +14,5 @@ else if (n == 0)
 {
 return (1);
 }
-return n * factorial(n - 1);
+return (n * factorial(n - 1));
 }
