@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints the arguments 
+ * main - prints the arguments
  * @argv: arguments
  * @argc: arg count
  * Return: 0
-*/ 
+*/
 int main(int argc, char **argv)
 {
 int i = 0;
