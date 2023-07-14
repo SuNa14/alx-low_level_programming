@@ -21,7 +21,7 @@ return (NULL);
 size = max - min + 1;
 p = malloc(sizeof(int) * size);
 
-if(ptr == NULL)
+if(p == NULL)
 {
 return (NULL);
 }
@@ -29,5 +29,5 @@ for(j = 0; min <= max; j++)
 {
 p[j] = min++;
 }
-return (ptr);
+return (p);
 }
